@@ -1,0 +1,36 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+
+<div class="list-of-cosmic-objects">
+    <li>
+        <a asp-page="/Stars/Index">Stars</a>
+    </li>
+    <li>
+        <a asp-page="/Planets/Index">Planets</a>
+    </li>
+    <li>
+        <a asp-page="/Satellites/Index">Satellites</a>
+    </li>
+    <li>
+        <a asp-page="/DwarfPlanets/Index">DwarfPlanets</a>
+    </li>
+    <li>
+        <a asp-page="/Asteroids/Index">Asteroids</a>
+    </li>
+    <li>
+        <a asp-page="/Comets/Index">Comets</a>
+    </li>
+
+</div>
+
+
+<div class="solar-syst-animation">
+
+</div>
